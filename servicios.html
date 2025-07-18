@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuestros Servicios | Salón de Masajes Chowa</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/servicios.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>Salón de Masajes<span class="highlight"> Chowa</span></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li class="current"><a href="servicios.html">Servicios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="main">
+        <div class="container">
+            <article id="main-col">
+                <h1 class="page-title">Nuestros Servicios</h1>
+                <ul id="services">
+                    <li>
+                        <h3>Masaje Relajante</h3>
+                        <p>Duración: 60 minutos | Precio: $50</p>
+                        <p>Masaje suave que reduce el estrés y la tensión muscular, mejorando la circulación sanguínea.</p>
+                    </li>
+                    <li>
+                        <h3>Masaje Terapéutico</h3>
+                        <p>Duración: 90 minutos | Precio: $75</p>
+                        <p>Enfoque en áreas problemáticas específicas para aliviar dolores musculares crónicos.</p>
+                    </li>
+                    <li>
+                        <h3>Paquete Spa Completo</h3>
+                        <p>Duración: 120 minutos | Precio: $120</p>
+                        <p>Incluye masaje relajante, facial y pedicure spa con productos naturales.</p>
+                    </li>
+                </ul>
+            </article>
+
+            <aside id="sidebar">
+                <div class="dark">
+                    <h3>Reserva tu cita</h3>
+                    <form class="quote" id="reserva-form">
+                        <div>
+                            <label>Nombre</label><br>
+                            <input type="text" placeholder="Nombre" required>
+                        </div>
+                        <div>
+                            <label>Email</label><br>
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div>
+                            <label>Teléfono</label><br>
+                            <input type="tel" placeholder="Teléfono" required>
+                        </div>
+                        <div>
+                            <label>Servicio</label><br>
+                            <select required>
+                                <option value="">Seleccione un servicio</option>
+                                <option value="relajante">Masaje Relajante</option>
+                                <option value="terapeutico">Masaje Terapéutico</option>
+                                <option value="spa">Paquete Spa Completo</option>
+                            </select>
+                        </div>
+                        <button class="button_1" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <p>Salón de Masajes Chowa &copy; 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
